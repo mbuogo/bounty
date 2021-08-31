@@ -24,7 +24,7 @@ echo "sleep 30; python3 /opt/Sublist3r/sublist3r.py -d $DOMAIN >> /bounty/$CLI/t
 
 echo "[+][-] Gh -  $DOMAIN"
 echo
-echo "cd /opt/github-search; python3 github-subdomains.py --token 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 -d $DOMAIN | grep -v '>>>' >> /bounty/$CLI/temp/gh.txt " >> $log
+echo "cd /opt/github-search; python3 github-subdomains.py --token xxxxxx -d $DOMAIN | grep -v '>>>' >> /bounty/$CLI/temp/gh.txt " >> $log
 
 echo "[+][-] Gobuster -  $DOMAIN"
 echo
